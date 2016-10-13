@@ -26,7 +26,7 @@ public class Client {
 		//从Sql Server数据库中插入user和查询user
 		factory = new SqlServerFactory();
 		IUser iUser2 = factory.createUser();
-		iUser2.insertUser(user);;
+		iUser2.insertUser(user);
 		iUser2.selectUser(1);
 		IDepartment iDepartment2 = factory.createDepartment();
 		iDepartment2.insertDepartment(department);
